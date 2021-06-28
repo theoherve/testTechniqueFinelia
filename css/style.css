@@ -1,0 +1,183 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	outline: none;
+	font-family: "Montserrat", sans-serif;
+	background-size: 100%;
+	background: linear-gradient(#82A7C4, #BACEDE) no-repeat;
+}
+
+::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width: 7px;
+	height: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, .5);
+	box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+/* Thin Scrollbar */
+:root{
+	scrollbar-color: rgba(255, 255, 255, .5) rgba(0, 0, 0, .5) !important;
+	scrollbar-width: thin !important;
+	scrollbar-box-shadow: 0 0 1px!important;
+}
+
+header img{
+	width: 10vw;
+}
+
+header>div{
+	background-color: none;
+	padding: 3% 12.5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header>div>div{
+	min-width: 15vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a{
+	color: black;
+	text-decoration: none;
+}
+
+header a:hover{
+	color: white;
+	transition: ease .3s;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main>div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+	height: 30vw;
+}
+
+main>div>p{
+	width: 50%;
+	text-align: center;
+	line-height: 2.5em;
+}
+
+main>div>a{
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	border: solid 1px black;
+	text-align: center;
+}
+
+main>div>a:hover{
+	color: white;
+	transition: ease .3s;
+	border: solid 1px white;
+}
+
+footer{
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 4vh;
+	position: absolute;
+	bottom: 0;
+}
+
+form{
+	padding: 3%;
+	width: 75%;
+	max-height: 55vh;
+	overflow-y: auto;
+	border: solid 1px black;
+	border-radius: 15px;
+}
+
+form input, form hr, form button{
+	margin-bottom: 2vh;
+}
+
+form input{
+	outline: none;
+	border: solid 0.5px black;
+	padding: 0.5%;
+	border-radius: 10px;
+}
+
+form input[type="number"]{
+	width: 4vw;
+}
+
+.plus{
+	outline: none;
+	border: none;
+	background-color: transparent;
+	/*font-size: 1em;*/
+}
+.plus:hover{
+	color: white;
+	transition: ease .3s;
+	cursor: pointer;
+}
+
+.matiere{
+	width: 100%;
+}
+
+form input[type='submit']{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main>table{
+	margin: 0 10%;
+	width: 80%;
+}
+
+table[class="centered"] tbody>tr:hover{
+	text-decoration: underline;
+	transition: ease .3s;
+	cursor: pointer;
+	color: white;
+}
+
+main>h4{
+	display: flex;
+	justify-content: center;
+}
+
+form input[type='submit']{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 45%;
+	background-color: transparent;
+}
+
+form input[type='submit']:hover{
+	background-color: white;
+	cursor: pointer;
+	transition: ease .3s;
+}
